@@ -7,6 +7,30 @@ const routes = [
 		name: "Home",
 		alias: "/",
 		component: () => import("../views/Home.vue")
+	},
+	{
+		path: "/product",
+		name: "Product",
+		alias: "/",
+		component: () => import("../views/Product.vue")
+	},
+	{
+		path: "/activity",
+		name: "Activity",
+		alias: "/",
+		component: () => import("../views/Activity.vue")
+	},
+	{
+		path: "/cooperation",
+		name: "Cooperation",
+		alias: "/",
+		component: () => import("../views/Cooperation.vue")
+	},
+	{
+		path: "/about",
+		name: "About",
+		alias: "/",
+		component: () => import("../views/About.vue")
 	}
 ]
 
